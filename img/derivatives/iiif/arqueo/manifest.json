@@ -1,0 +1,68 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://javiervz.github.io/annonatate/img/derivatives/iiif/arqueo/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Tocado de colores de lana"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://javiervz.github.io/annonatate/img/derivatives/iiif/arqueo/canvas/arqueo-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "CDO00011"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://javiervz.github.io/annonatate/img/derivatives/iiif/arqueo/CDO00011/full/147,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 277,
+      "width": 293,
+      "items": [
+        {
+          "id": "https://javiervz.github.io/annonatate/img/derivatives/iiif/arqueo/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://javiervz.github.io/annonatate/img/derivatives/iiif/arqueo/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://javiervz.github.io/annonatate/img/derivatives/iiif/arqueo/CDO00011/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 277,
+                "width": 293,
+                "service": [
+                  {
+                    "id": "https://javiervz.github.io/annonatate/img/derivatives/iiif/arqueo/CDO00011",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://javiervz.github.io/annonatate/img/derivatives/iiif/arqueo/canvas/arqueo-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
